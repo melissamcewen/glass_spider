@@ -1,3 +1,16 @@
-///stample
+/* Place your SASS-based libraries in this folder in subdirectories. For example Bootstrap would go in a subfolder named bootstrap, then individually import them like this, which references the bootstrap.scss file in the bootstrap directory
 
-this stop
+@import 'bootstrap/bootstrap';
+
+note you do not need to add the .scss extension or the _ prefix
+
+below are some common examples you can comment out
+*/
+
+/* -- Delete this line if you want to use this library
+//Bootstrap
+//Download this stylesheets folder and rename it bootstrap
+//https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets
+//you'll also need to add the js files to the js directory if you want full functionality
+@import 'bootstrap/bootstrap';
+// */

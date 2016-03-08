@@ -2,3 +2,7 @@ global-styling:
   css:
     component:
       css/style.css: {}
+  js:
+    js/glass_spider.js: {}
+  dependencies:
+    - core/jquery
