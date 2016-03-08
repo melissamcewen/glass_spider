@@ -9,12 +9,29 @@ I started this because I work with and teach developers and designers with a wid
 I had worked with Aurora as a Drupal base theme and learned to love how SASS driven it was. I also liked Omega for its strategy of bringing SASS to everyone. Unlike Omega this doesn't try to make PHP/Drupal responsible for compiling, leaving less code in this theme and more flexibility.
 
 ## Using SASS
+SASS is simply a more powerful way to write CSS. Utilize cool libraries to handle your layouts like grid systems or media queries and enjoy the ability to write and use variables and functions. A compiler then turns your SASS into CSS. The CSS is what the website uses to display, SASS is just for development.
 
+### SASS Basics
+#### Importing
+The most important SASS concept in this theme is one of importing. With importing we can divide all our files into different directories and have them made into one css files when compiled. In this theme the chain starts with style.scss, which then imports other .scss files and those files can import other files as well. For example in style.scss we have
+```scss
+@import 'partials/global/base';
+```
+This references the _base.scss file in the partials/global directory. Yes the syntax doesn't include the underscore nor the extension of the file.
+In that _base.scss we can import our variables like this
+```scss
+@import 'variables';
+```
+which references a file in the same directory as _base.scss with the name _variables.scss.
 
 ### Including libraries
-In order to remain compiler agnostic this theme does not make use of popular package managers like Bundler. The libraries are included manually and should be put in their own directory in the libraries partial folder. 
+In order to remain compiler agnostic this theme does not make use of popular package managers like Bundler. The libraries are included manually and should be put in their own directory in the libraries partial folder. For example Breakpoint would go into the breakpoint directory with the base Breakpoint _breakpoint.scss and in your libraries partial (_libraries.scss) you'll include it in with the statement
+```sass
+@import 'breakpoint/breakpoint';
+```
 #### Tested libraries
 ##### Breakpoint
+To use pull out the [stylesheets directory](https://github.com/at-import/breakpoint/tree/2.x.x/stylesheets), rename it breakpoint
 
 ### Compilers
 The purpose of the compiler is to turn your scss into css. This theme has been tested in the following compilers:
