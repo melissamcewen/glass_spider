@@ -12,3 +12,11 @@ I had worked with Aurora as a Drupal base theme and learned to love how SASS dri
 
 
 ### Including libraries
+In order to remain compiler agnostic this theme does not make use of popular package managers like Bundler. The libraries are included manually and should be put in their own directory in the libraries partial folder. 
+#### Tested libraries
+##### Breakpoint
+
+### Compilers
+The purpose of the compiler is to turn your scss into css. This theme has been tested in the following compilers:
+#### PHPStorm Watcher
+#### Koala
