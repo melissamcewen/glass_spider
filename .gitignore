@@ -1,2 +1,2 @@
-sass/partials/libraries
-!sass/parials/libraries/_libraries.scss
+sass/partials/libraries/*
+!sass/partials/libraries/_libraries.scss
