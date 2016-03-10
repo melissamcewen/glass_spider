@@ -85,6 +85,10 @@ _Difficulty: Easy_
 
 To use in Koala simply drag the sass folder into the Koala application and click compile.
 
+### Style
+Sample styles are done with Markdown formatted commenting for use in Markdown-based [Styleguide](https://github.com/davidhund/styleguide-generators) generators.
+
+
 ### Other Plugins
 To use popular plugins that are not-SASS based, utilize a compiler that supports them.
 
