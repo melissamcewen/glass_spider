@@ -1,0 +1,106 @@
+/*
+# Susy Sample Layout
+The following is a Susy grid layout with debugging turned on and test coloration applied to the *Drupal 7* page.tpl.php
+*/
+
+/* 
+## Susy Configuration
+*/
+
+$susy: (
+  columns: 12,  // The number of columns in your grid
+  debug: (
+    image: show,
+    color: blue,
+    output: overlay,
+    toggle: top right,
+  ),
+);
+
+#page { @include container; }
+
+/* 
+## Testing variables
+*/
+
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+
+/* 
+## Non-Region Layout
+*/
+
+#navigation{
+  background-color: $red;
+  @include span(6);
+}
+#logo{
+  background-color: $blue;
+  @include span(2); 
+}
+#site-name{
+  background-color: $orange;
+  @include span (last 10);
+}
+
+h1{
+  background-color: $magenta;
+  @include span(last 12);
+}
+
+/* 
+## Region Layout
+*/
+
+//### regions[header] = Header
+#header-region{
+  background-color: $yellow;
+  @include span (last 6);
+}
+
+//### regions[highlighted] = Highlighted
+#highlighted{
+  background-color: $violet;
+  @include span(last 12);
+}
+//### regions[help] = Help
+#help{
+  background-color: $green;
+  @include span(last 12);
+}
+//### regions[content] = Content
+#content-area{
+  clear: right;
+  background-color: $cyan;
+  @include span(isolate 8 at 3);
+}
+//### regions[sidebar_first] = First sidebar
+#sidebar-first{
+  background-color: $magenta;
+  @include span(isolate 2 at 1);
+}
+//### regions[sidebar_second] = Second sidebar
+#sidebar-second{
+  background-color: $orange;
+  @include span(isolate 2 at 11);
+}
+//### regions[footer] = Footer
+#footer{
+  background-color: $blue;
+  @include span(last 12);
+  clear: both;
+}
+
+/* 
+## Disabled for Demo Purposes
+*/
+#skip{
+  display: none;
+}
