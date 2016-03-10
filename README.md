@@ -46,14 +46,15 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 ```
 #### Tested libraries
 ##### Bootstrap-sass
-This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular framework for developing responsive projects. To use import the [assets/stylesheets directory](https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets). You'll also need to [include](https://www.drupal.org/node/304255) Bootstrap's Javascript in your theme for full functionality.
+This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular framework for developing responsive projects. To use import the [assets/stylesheets directory](https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets). You'll also need to [include](https://www.drupal.org/node/304255) Bootstrap's Javascript in your theme for full functionality. 
+
 ##### Breakpoint
 [Breakpoint](http://breakpoint-sass.com/) is a simple way of handling media queries. To use import the [stylesheets directory](https://github.com/at-import/breakpoint/tree/2.x.x/stylesheets).
 ##### Susy
 [Susy](http://susy.oddbird.net/) is a responsive grid framework. Follow the instructions in the [Susy documentation](http://susydocs.oddbird.net/en/latest/install/#manual-start). 
 There is a layout example in the docs/samples folder.
 
-#### Singularity
+##### Singularity
 [Singularity](https://github.com/at-import/Singularity) is another responsive grid framework. To use import the [stylesheets](https://github.com/at-import/Singularity/tree/1.x.x/stylesheets) directory. There is a layout example in the docs/samples folder.
 
 ### Compilers
