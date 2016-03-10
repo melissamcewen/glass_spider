@@ -51,7 +51,7 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 ##### Bootstrap-sass
 This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular framework for developing responsive projects. To use import the [assets/stylesheets directory](https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets). You'll also need to [include](https://www.drupal.org/node/304255) Bootstrap's Javascript in your theme for full functionality. 
 
-#### Bourbon
+##### Bourbon
 [Bourbon](https://github.com/thoughtbot/bourbon) is a mixin library. You first need to build Bourbon in Ruby or Node to have the correct SASS files. Once you've built it you can include it normally.
 
 ##### Breakpoint
