@@ -2,14 +2,11 @@
 # Singularity Sample Layout
 The following is a Singularity grid layout with debugging turned on and test coloration applied to the *Drupal 7* page.tpl.php
 */
-$yellow:    #b58900;
-$orange:    #cb4b16;
-$red:       #dc322f;
-$magenta:   #d33682;
-$violet:    #6c71c4;
-$blue:      #268bd2;
-$cyan:      #2aa198;
-$green:     #859900;
+
+
+/* 
+## Singularity Configuration
+*/
 
 @include add-grid(12);
 @include sgs-change('debug', true);
@@ -19,6 +16,17 @@ $green:     #859900;
   overflow: auto;
 }
 
+/* 
+## Testing variables
+*/
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
 
 /* 
 ## Non-Region Layout
