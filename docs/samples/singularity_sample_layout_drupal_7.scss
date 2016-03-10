@@ -1,0 +1,100 @@
+/*
+# Singularity Sample Layout
+The following is a Singularity grid layout with debugging turned on and test coloration applied to the *Drupal 7* page.tpl.php
+*/
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198;
+$green:     #859900;
+
+@include add-grid(12);
+@include sgs-change('debug', true);
+
+#page { 
+  @include background-grid($color: blue);
+  overflow: auto;
+}
+
+
+/* 
+## Non-Region Layout
+*/
+#navigation{
+  background-color: $red;
+  @include grid-span(6, 1);
+}
+
+#logo{
+  background-color: $blue;
+  @include grid-span(2, 1);
+}
+
+#site-name{
+  background-color: $orange;
+  @include grid-span(10, 3);
+}
+
+h1{
+  background-color: $magenta;
+  @include grid-span(12, 1);
+  clear: both;
+}
+/* 
+## Region Layout
+*/
+// ### regions[header] = Header
+#header-region{
+  background-color: $yellow;
+  @include grid-span(6, 7);
+}
+
+// ### regions[highlighted] = Highlighted
+#highlighted{
+  background-color: $violet;
+  @include grid-span(12, 1);
+  clear: both;
+  
+}
+// ### regions[help] = Help
+#help{
+  background-color: $green;
+  @include grid-span(12, 1);
+  clear: both;
+}
+// ### regions[content] = Content
+#content-area{
+  background-color: $cyan;
+  @include grid-span(8,3);
+  clear: both;
+ 
+}
+// ### regions[sidebar_first] = First sidebar
+#sidebar-first{
+  background-color: $magenta;
+  @include grid-span(2, 1);
+  
+}
+// ### regions[sidebar_second] = Second sidebar
+#sidebar-second{
+  background-color: $orange;
+  @include grid-span(2, 11);
+ 
+}
+// ### regions[footer] = Footer
+#footer{
+  background-color: $blue;
+  @include grid-span(12, 1);
+  clear: both;
+}
+
+/* 
+## Disabled for Demo Purposes
+*/
+#skip{
+  display: none;
+}
+
