@@ -34,6 +34,36 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 To use pull out the [stylesheets directory](https://github.com/at-import/breakpoint/tree/2.x.x/stylesheets), rename it breakpoint
 
 ### Compilers
-The purpose of the compiler is to turn your scss into css. This theme has been tested in the following compilers:
+The purpose of the compiler is to turn your scss into css. The way they are ranked by difficulty is by:
+* Easy: GUI-only
+* Advanced: Requires some command line installations
+In addition some compilers need different installation and configuration depending on the base OS and that is noted when relevant. 
+
+This theme has been tested in the following compilers:
 #### PHPStorm Watcher
+
+##### For Mac 
+Difficulty: Advanced
+To utilize PHPStorm's SASS Watcher, you need to make sure to [first install the depedencies](https://www.jetbrains.com/phpstorm/help/transpiling-sass-less-and-scss-to-css.html) and then configure the from:to in the arguments correctly
+```
+Recommended Settings:
+Scope: file:themes/glass_spider/sass/style.scss
+Program: Should be a path to your local SASS 
+Arguments: --no-cache --update $FileName$:$FileParentDir$/css/style.css
+Working Directory: $FileDir$
+Output Paths To Refresh: $FileParentDir$/css/style.css;
+```
+
+
 #### Koala
+##### For Windows
+Difficulty: Easy
+To use in Koala simply drag the sass folder into the Koala application and click compile.
+
+### Other Plugins
+To use popular plugins that are not-SASS based, utilize a compiler that supports them.
+
+* [Compass](http://compass-style.org/)
+  * [Koala](http://koala-app.com/)
+* [Autoprefixer](https://github.com/postcss/autoprefixer)
+  * [Prepros](https://prepros.io/)
