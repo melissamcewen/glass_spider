@@ -43,7 +43,8 @@ This theme has been tested in the following compilers:
 #### PHPStorm Watcher
 
 ##### For Mac 
-Difficulty: Advanced
+_Difficulty: Advanced_
+
 To utilize PHPStorm's SASS Watcher, you need to make sure to [first install the depedencies](https://www.jetbrains.com/phpstorm/help/transpiling-sass-less-and-scss-to-css.html) and then configure the from:to in the arguments correctly
 ```
 Recommended Settings:
@@ -57,7 +58,8 @@ Output Paths To Refresh: $FileParentDir$/css/style.css;
 
 #### Koala
 ##### For Windows
-Difficulty: Easy
+_Difficulty: Easy_
+
 To use in Koala simply drag the sass folder into the Koala application and click compile.
 
 ### Other Plugins
