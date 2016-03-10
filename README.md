@@ -32,6 +32,9 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 #### Tested libraries
 ##### Breakpoint
 To use pull out the [stylesheets directory](https://github.com/at-import/breakpoint/tree/2.x.x/stylesheets), rename it breakpoint
+##### Susy
+Follow the instructions in the [Susy documentation](http://susydocs.oddbird.net/en/latest/install/#manual-start). Name your folder Susy and include _susy.scss.
+[Codepen](http://codepen.io/melissamcewen/pen/eZZoYZ?editors=1100)
 
 ### Compilers
 The purpose of the compiler is to turn your scss into css. The way they are ranked by difficulty is by:
