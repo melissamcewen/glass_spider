@@ -31,7 +31,7 @@ SASS is simply a more powerful way to write CSS. Utilize cool libraries to handl
 
 ### SASS Basics
 #### Importing
-The most important SASS concept in this theme is one of importing. With importing we can divide all our files into different directories and have them made into one css files when compiled. In this theme the chain starts with style.scss, which then imports other .scss files and those files can import other files as well. For example in style.scss we have
+The most important SASS concept in this theme is one of importing. With importing we can divide all our files (called partials) into different directories and have them made into one css files when compiled. In this theme the chain starts with style.scss, which then imports other .scss files and those files can import other files as well. For example in style.scss we have
 ```scss
 @import 'partials/global/base';
 ```
