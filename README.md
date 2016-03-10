@@ -53,7 +53,7 @@ This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular fra
 [Susy](http://susy.oddbird.net/) is a responsive grid framework. Follow the instructions in the [Susy documentation](http://susydocs.oddbird.net/en/latest/install/#manual-start). 
 There is a layout example in the docs/samples folder.
 
-### Singularity
+#### Singularity
 [Singularity](https://github.com/at-import/Singularity) is another responsive grid framework. To use import the [stylesheets](https://github.com/at-import/Singularity/tree/1.x.x/stylesheets) directory. There is a layout example in the docs/samples folder.
 
 ### Compilers
