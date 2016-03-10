@@ -7,6 +7,20 @@ I started this because I work with and teach developers and designers with a wid
 
 I had worked with Aurora as a Drupal base theme and learned to love how SASS driven it was. I also liked Omega for its strategy of bringing SASS to everyone. Unlike Omega this doesn't try to make PHP/Drupal responsible for compiling, leaving less code in this theme and more flexibility.
 
+### Drupal 8
+The Drupal 8 base is built off of Classy.
+
+### Drupal 7
+The Drupal 7 base is built off of [Basic](https://www.drupal.org/project/basic), with some elements of Aurora. It is not meant to be used as a subtheme, but as a clone. Basic's documentation contains instructions for this:
+> - Basic is meant to be YOUR theme. To change the name of the theme from 'basic' to another name like 'mytheme',
+follow these steps (to do BEFORE enabling the theme) :
+>    - rename the theme folder to 'mytheme'
+>    - rename basic.info to mytheme.info
+>    - Edit basic.info and change the name, description, project (can be deleted), replace all other instances of "basic" ie. [basic_tabs] would become [mytheme_tabs]
+>    - In template.php change each iteration of 'basic' to 'mytheme'
+>    - In theme-settings.php change each iteration of 'basic' to 'mytheme'
+
+
 ## Using SASS
 SASS is simply a more powerful way to write CSS. Utilize cool libraries to handle your layouts like grid systems or media queries and enjoy the ability to write and use variables and functions. A compiler then turns your SASS into CSS. The CSS is what the website uses to display, SASS is just for development.
 
