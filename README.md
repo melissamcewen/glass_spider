@@ -43,6 +43,9 @@ The purpose of the compiler is to turn your scss into css. The way they are rank
 * Advanced: Requires some command line installations
 In addition some compilers need different installation and configuration depending on the base OS and that is noted when relevant. 
 
+While this theme aims to be free of requirements to use a particular compiler, some language-specific files are included in order to make it easier to configure some compilers:
+* Config.rb utilized by Koala
+
 This theme has been tested in the following compilers:
 #### PHPStorm Watcher
 
