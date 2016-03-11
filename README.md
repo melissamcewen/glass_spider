@@ -48,6 +48,12 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 ```sass
 @import 'breakpoint/breakpoint';
 ```
+#### Recommended Libraries
+These libraries have been tested extensively with this theme and are lightweight and simple to include:
+* Media query handling: [Breakpoint](http://breakpoint-sass.com/) 
+* Grid: [Susy](http://susy.oddbird.net/) or [Singularity](https://github.com/at-import/Singularity)
+* Mixins: [Bourbon](https://github.com/thoughtbot/bourbon)
+
 #### Tested libraries
 ##### Bootstrap-sass
 This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular framework for developing responsive projects. To use import the [assets/stylesheets directory](https://github.com/twbs/bootstrap-sass/tree/master/assets/stylesheets). You'll also need to [include](https://www.drupal.org/node/304255) Bootstrap's Javascript in your theme for full functionality. 
