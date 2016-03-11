@@ -8,7 +8,7 @@
 ```
 
 ## Utilizing the sample layout
-1. copy the Glass Spider sample layout partial sample 'singularity_sample_layout_drupal_7.scss' or 'singularity_sample_layout_drupal_8.scss' (depending on your Drupal version) into your Glass Spider theme's 'sass/layouts' directory
+1. copy the Glass Spider sample layout partial sample 'singularity_sample_layout_drupal_7.scss' or 'singularity_sample_layout_drupal_8.scss' (depending on your Drupal version) into your Glass Spider theme's 'sass/partials/layouts' directory
 2. include the sample in your layouts partial with the following import
 ```sass
 @import 'singularity_sample_layout_drupal_7';
