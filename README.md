@@ -65,7 +65,7 @@ This is the SASS version of [Bootstrap](http://getbootstrap.com/), a popular fra
 [Breakpoint](http://breakpoint-sass.com/) is a simple way of handling media queries. To use import the [stylesheets directory](https://github.com/at-import/breakpoint/tree/2.x.x/stylesheets).
 
 ##### Foundation
-It's technically possible to use [Foundation](http://foundation.zurb.com/) framework in this way, but it has a number of dependencies that must be installed and then the Foundation files must be modified to utilize them. In addition, the version of SASS your compiler uses must be 3.4.
+It's technically possible to use [Foundation](http://foundation.zurb.com/) framework in this way, but it has a number of dependencies that must be installed and then the Foundation files must be modified to utilize them. In addition, the version of SASS your compiler uses must be 3.4. An alternative is using a compiler with built-in support like [Codekit](https://incident57.com/codekit/index.html).
 
 ##### Susy
 [Susy](http://susy.oddbird.net/) is a responsive grid framework. Follow the instructions in the [Susy documentation](http://susydocs.oddbird.net/en/latest/install/#manual-start). 
