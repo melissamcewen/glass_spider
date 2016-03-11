@@ -114,7 +114,7 @@ Sample styles are done with Markdown formatted commenting for use in Markdown-ba
 To use popular plugins that are not-SASS based, utilize a compiler that supports them.
 
 * [Compass](http://compass-style.org/)
-  * [Codekit](https://incident57.com/codekit/index.html)
+  * [Codekit](https://incident57.com/codekit/index.html) - contains Bower, a popular package manager, so install libraries through this if possible
   * [Koala](http://koala-app.com/)
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
   * [Prepros](https://prepros.io/)
