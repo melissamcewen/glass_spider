@@ -1,0 +1,21 @@
+////////////////////////
+// Base Partials
+//
+// These files will be shared across all three of your output CSS files i. Generally included here are only imports for variables, functions, mixins, and extendables.
+//
+//
+////////////////////////
+
+////////////////////////
+// Version Specific
+////////////////////////
+//@import 'drupal-7';
+//@import 'drupal-8';
+
+////////////////////////
+// Private Imports
+////////////////////////
+//@import 'variables';
+//@import 'functions';
+//@import 'mixins';
+//@import 'extendables';
