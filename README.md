@@ -48,13 +48,16 @@ which references a file in the same directory as _base.scss with the name _varia
 The base SASS is Drupal version-agnostic, meaning you can use it for both Drupal 7 and Drupal 8 as long as you include the correct base variables file in your base partial. These files are:
 * /sass/partials/global/_drupal_7.scss
 * /sass/partials/global/_drupal_8.scss
-They are utilized by the sample files for layout, style, and design. You'll also want to edit the variables file and add any common variables there such as colors. 
+They are utilized by the sample files for layout, style, and design. 
 #### Styleguide
-The styleguide should include your styles: colors, fonts, font-sizes.
+Think of the styleguide as the "skin" of your site, a set of standards to apply to the site. The samples include:
+* Colors
+* Typography
+* Layout Standard (breakpoints, the grid used at each)
 #### Layout
 Include partials governing page structure such as the Susy and Singularity grid layouts. 
 #### Design
-Apply your styleguide to the site with design partials.
+The design is the elementral structure of individual elements. 
 
 
 ### Including libraries
@@ -83,10 +86,9 @@ It's technically possible to use [Foundation](http://foundation.zurb.com/) frame
 
 ##### Susy
 [Susy](http://susy.oddbird.net/) is a responsive grid framework. Follow the instructions in the [Susy documentation](http://susydocs.oddbird.net/en/latest/install/#manual-start). 
-There is a layout example in the docs/samples folder.
 
 ##### Singularity
-[Singularity](https://github.com/at-import/Singularity) is another responsive grid framework. To use import the [stylesheets](https://github.com/at-import/Singularity/tree/1.x.x/stylesheets) directory. There is a layout example in the docs/samples folder.
+[Singularity](https://github.com/at-import/Singularity) is another responsive grid framework. To use import the [stylesheets](https://github.com/at-import/Singularity/tree/1.x.x/stylesheets) directory. 
 
 ### Compilers
 The purpose of the compiler is to turn your scss into css. The way they are ranked by difficulty is by:
