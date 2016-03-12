@@ -43,6 +43,20 @@ In that _base.scss we can import our variables like this
 ```
 which references a file in the same directory as _base.scss with the name _variables.scss.
 
+### Partials Structure
+#### Global 
+The base SASS is Drupal version-agnostic, meaning you can use it for both Drupal 7 and Drupal 8 as long as you include the correct base variables file in your base partial. These files are:
+* /sass/partials/global/_drupal_7.scss
+* /sass/partials/global/_drupal_8.scss
+They are utilized by the sample files for layout, style, and design. You'll also want to edit the variables file and add any common variables there such as colors. 
+#### Styleguide
+The styleguide should include your styles: colors, fonts, font-sizes.
+#### Layout
+Include partials governing page structure such as the Susy and Singularity grid layouts. 
+#### Design
+Apply your styleguide to the site with design partials.
+
+
 ### Including libraries
 In order to remain compiler agnostic this theme does not make use of popular package managers like Bundler. The libraries are included manually and should be put in their own directory in the libraries partial folder. For example Breakpoint would go into the breakpoint directory with the base Breakpoint _breakpoint.scss and in your libraries partial (_libraries.scss) you'll include it in with the statement
 ```sass
