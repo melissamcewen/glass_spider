@@ -1,2 +1,5 @@
+sass/partials/development
 sass/partials/libraries/*
 !sass/partials/libraries/_libraries.scss
+css/*
+.sass-cache

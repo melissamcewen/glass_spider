@@ -1,5 +1,10 @@
-body {
-  background-color: red; }
+/* Place your SASS-based libraries in this folder in subdirectories. For example Bootstrap would go in a subfolder named bootstrap, then individually import them like this, which references the bootstrap.scss file in the bootstrap directory
 
-div {
-  border: pink 1px solid; }
+@import 'bootstrap/bootstrap';
+
+note you do not need to add the .scss extension or the _ prefix
+
+below are some common examples you can comment out
+*/
+
+/*# sourceMappingURL=style.css.map */

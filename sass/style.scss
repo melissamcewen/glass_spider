@@ -1,10 +1,36 @@
-//Libraries
-//Base
-//Layout
-//Style Guide
-//Design
-@import 'partials/design/design';
+////////////////////////
+// Style File
+//
+// This file gets turned into style.css. This file should really hold nothing except for imports of your base, style guide, layout, and design partials.
+////////////////////////
 
-div{
-  border: pink 1px solid;
-}
+
+//////////////////////////
+// Import Externals
+////////////////////////
+//@import 'partials/libraries/libraries';
+
+//////////////////////////
+// Import Externals Development
+////////////////////////
+@import 'partials/development/libraries';
+
+//////////////////////////
+// Base Import
+////////////////////////
+//@import 'partials/global/base';
+
+////////////////////////
+// Import Style Guide
+////////////////////////
+//@import 'partials/styleguide/style-guide';
+
+////////////////////////
+// Import Layout
+////////////////////////
+//@import 'partials/layout/layout';
+
+////////////////////////
+// Import Design
+////////////////////////
+//@import 'partials/design/design';
