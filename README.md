@@ -128,7 +128,8 @@ Sample styles are done with Markdown formatted commenting for use in Markdown-ba
 #### Command Line Compilers
 These are recommended if you are an advanced user comfortable on the command line
 * [Libsass](http://sass-lang.com/libsass): available in various flavors, Node is probably the most popular
-* Compass
+* [Sass](http://sass-lang.com/install)
+* [Compass](http://compass-style.org/): is much more than a compiler, contains a lot of tools as well
 
 ### Other Plugins
 To use popular plugins that are not-SASS based, utilize a compiler that supports them.
