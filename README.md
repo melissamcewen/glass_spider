@@ -69,7 +69,6 @@ In order to remain compiler agnostic this theme does not make use of popular pac
 These libraries have been tested extensively with this theme and are lightweight and simple to include:
 * Media query handling: [Breakpoint](http://breakpoint-sass.com/) 
 * Grid: [Susy](http://susy.oddbird.net/) or [Singularity](https://github.com/at-import/Singularity)
-* Mixins: [Bourbon](https://github.com/thoughtbot/bourbon)
 
 #### Tested libraries
 ##### Bootstrap-sass
@@ -134,3 +133,4 @@ To use popular plugins that are not-SASS based, utilize a compiler that supports
   * [Koala](http://koala-app.com/)
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
   * [Prepros](https://prepros.io/)
+  * [Koala](http://koala-app.com/)
