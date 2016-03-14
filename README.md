@@ -49,13 +49,16 @@ The base SASS is Drupal version-agnostic, meaning you can use it for both Drupal
 * /sass/partials/global/_drupal_7.scss
 * /sass/partials/global/_drupal_8.scss
 They are utilized by the sample files for layout, style, and design. 
+
 #### Styleguide
 Think of the styleguide as the "skin" of your site, a set of standards to apply to the site. The samples include:
 * Colors
 * Typography
 * Layout Standard (breakpoints, the grid used at each)
+
 #### Layout
 Include partials governing page structure such as the Susy and Singularity grid layouts. 
+
 #### Design
 The design is the elementral structure of individual elements. 
 
