@@ -1,0 +1,148 @@
+/*
+# Susy Sample
+Depends on enabling the Drupal version variables in global and the Glass Spider variables. Two viewpoints are enabled: desktop and mobile.
+*/
+
+/*
+## Susy Configuration
+*/
+$susy: (
+        columns: $default-columns,
+        debug: (
+                image: show,
+                color: blue,
+                output: overlay,
+                toggle: top right,
+        ),
+);
+
+
+#{$layout-container} {
+  @include container;
+}
+
+/*
+## Region Layout
+*/
+
+//### Header
+#{$header}{
+  background-color: $yellow;
+  @include susy-breakpoint($desktop, $desktop-columns){
+    @include span(last 12);
+  };
+  //
+
+}
+
+//### Highlighted
+#{$highlighted}{
+  background-color: $violet;
+  @include susy-breakpoint($desktop, $desktop-columns){
+    @include span(last 12);
+  };
+}
+//### Help
+#{$help}{
+  background-color: $green;
+  @include susy-breakpoint($desktop, $desktop-columns){
+    @include span(last 12);
+  };
+  //@include span(last 12);
+}
+// ### Main Content Area With Sidebars
+
+// #### No Sidebars
+//##### Content
+#{$content}{
+  background-color: $cyan;
+  @include susy-breakpoint($desktop, $desktop-columns){
+    clear: right;
+    @include span(last 12);
+  };
+}
+
+// #### First Sidebar Only
+.layout-container--sidebar-first{
+  //##### Content
+  #{$content}{
+    background-color: $cyan;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      clear: right;
+      @include span(isolate 10 at 3);
+    };
+
+
+  }
+  //##### First sidebar
+  #{$sidebar-first}{
+    background-color: $magenta;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      @include span(isolate 2 at 1);
+    };
+
+  }
+}
+
+// #### Second Sidebar Only
+.layout-container--sidebar-second{
+  //##### Content
+  #{$content}{
+    background-color: $cyan;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      @include span(isolate 10 at 1);
+    };
+
+
+  }
+  //##### Second sidebar
+  #{$sidebar-second}{
+    background-color: $orange;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      @include span(isolate 2 at 11);
+    };
+  }
+}
+
+// #### Both Sidebars
+.layout-container--sidebar-second.layout-container--sidebar-first {
+  //##### Content
+  #{$content}{
+    background-color: $cyan;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      clear: right;
+      @include span(isolate 8 at 3);
+    };
+
+
+  }
+  //##### First sidebar
+  #{$sidebar-first}{
+    background-color: $magenta;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      @include span(isolate 2 at 1);
+    };
+
+  }
+  //##### Second sidebar
+  #{$sidebar-second}{
+    background-color: $orange;
+    @include susy-breakpoint($desktop, $desktop-columns){
+      @include span(isolate 2 at 11);
+    };
+
+
+  }
+
+}
+
+
+//### Footer
+#{$footer}{
+  background-color: $blue;
+  @include susy-breakpoint($desktop, $desktop-columns){
+    @include break;
+    @include span(last 12);
+  };
+
+}

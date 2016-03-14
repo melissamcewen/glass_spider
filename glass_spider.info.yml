@@ -10,7 +10,8 @@ libraries:
 # Regions
 regions:
   header: Header
-  featured: Featured
+  highlighted: Highlighted
+  help: Help
   content: Content
   sidebar_first: First sidebar
   sidebar_second: Second sidebar

@@ -1,0 +1,25 @@
+/*
+# Drupal 8 Variables
+These variables match the templating elements from the Drupal 8 version, enable them to use sample layouts
+*/
+
+// ## main page container
+$layout-container: '.layout-container';
+
+
+// ## Page Regions
+// ### Header
+$header: '.region-header';
+// ### Highlighted
+$highlighted: '.region-highlighted';
+// ### Help
+$help: '.region-help';
+// ### Content
+$content: '.region-content';
+// ### First sidebar
+$sidebar-first: '.region-sidebar-first';
+// ### Second sidebar
+$sidebar-second: '.region-sidebar-second';
+// ### Footer
+$footer: '.region-footer';
+

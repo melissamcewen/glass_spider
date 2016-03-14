@@ -9,7 +9,7 @@ $page: #page;
 //## page elements
 
 $skip-link: #skip;
-$naviagion: #navigation;
+$navigation: #navigation;
 $logo: #logo;
 $site-name: #site-name;
 $header: h1;
@@ -18,14 +18,14 @@ $header: h1;
 // ### regions[header] = Header
 $header: #header-region;
 // ### regions[highlighted] = Highlighted
-$highlighted = #highlighted;
+$highlighted:  #highlighted;
 // ### regions[help] = Help
-$help = #help;
+$help: #help;
 // ### regions[content] = Content
-$content = #content-area;
+$content:  #content-area;
 // ### regions[sidebar_first] = First sidebar
-$sidebar-first = #sidebar-first;
+$sidebar-first:  #sidebar-first;
 // ### regions[sidebar_second] = Second sidebar
-$sidebar-second = #sidebar-second;
+$sidebar-second: #sidebar-second;
 // ### regions[footer] = Footer
-$footer = #footer;
+$footer: #footer;

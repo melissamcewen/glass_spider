@@ -1,4 +1,6 @@
-/* Place your SASS-based libraries in this folder in subdirectories. For example Bootstrap would go in a subfolder named bootstrap, then individually import them like this, which references the bootstrap.scss file in the bootstrap directory
+/*
+# External Libraries
+Place your SASS-based libraries in this folder in subdirectories. For example Bootstrap would go in a subfolder named bootstrap, then individually import them like this, which references the bootstrap.scss file in the bootstrap directory
 
 @import 'bootstrap/bootstrap';
 
@@ -6,5 +8,173 @@ note you do not need to add the .scss extension or the _ prefix
 
 below are some common examples you can comment out
 */
+/*
+# Glass Spider Variables
+*/
+/*
+## Breakpoints
+*/
+/*
+## Testing Colors
+Based on solarized
+*/
+/*
+# Drupal 8 Variables
+These variables match the templating elements from the Drupal 8 version, enable them to use sample layouts
+*/
+/*
+# Susy Sample
+Depends on enabling the Drupal version variables in global and the Glass Spider variables. Two viewpoints are enabled: desktop and mobile.
+*/
+/*
+## Susy Configuration
+*/
+.layout-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto; }
+  .layout-container:after {
+    content: " ";
+    display: block;
+    clear: both; }
+  head {
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 999;
+    color: #333;
+    background: rgba(255, 255, 255, 0.25); }
+  head:before {
+    content: "|||";
+    display: block;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold; }
+  head:hover {
+    background: rgba(255, 255, 255, 0.5);
+    color: red; }
+  head:hover ~ .layout-container, head:hover ~ body .layout-container {
+    position: relative; }
+    head:hover ~ .layout-container:before, head:hover ~ body .layout-container:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      content: " ";
+      z-index: 998;
+      background-image: linear-gradient(to right, blue, #4d4dff 80%, transparent 80%);
+      background-size: 26.31579%;
+      background-origin: content-box;
+      background-clip: content-box;
+      background-position: left top; }
+
+/*
+## Region Layout
+*/
+.region-header {
+  background-color: #b58900; }
+  @media (min-width: 1200px) {
+    .region-header {
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
+
+.region-highlighted {
+  background-color: #6c71c4; }
+  @media (min-width: 1200px) {
+    .region-highlighted {
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
+
+.region-help {
+  background-color: #859900; }
+  @media (min-width: 1200px) {
+    .region-help {
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
+
+.region-content {
+  background-color: #2aa198; }
+  @media (min-width: 1200px) {
+    .region-content {
+      clear: right;
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
+
+.layout-container--sidebar-first .region-content {
+  background-color: #2aa198; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-first .region-content {
+      clear: right;
+      width: 83.05085%;
+      float: left;
+      margin-left: 16.94915%;
+      margin-right: -100%; } }
+.layout-container--sidebar-first .region-sidebar-first {
+  background-color: #d33682; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-first .region-sidebar-first {
+      width: 15.25424%;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%; } }
+
+.layout-container--sidebar-second .region-content {
+  background-color: #2aa198; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-second .region-content {
+      width: 83.05085%;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%; } }
+.layout-container--sidebar-second .region-sidebar-second {
+  background-color: #cb4b16; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-second .region-sidebar-second {
+      width: 15.25424%;
+      float: left;
+      margin-left: 84.74576%;
+      margin-right: -100%; } }
+
+.layout-container--sidebar-second.layout-container--sidebar-first .region-content {
+  background-color: #2aa198; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-second.layout-container--sidebar-first .region-content {
+      clear: right;
+      width: 66.10169%;
+      float: left;
+      margin-left: 16.94915%;
+      margin-right: -100%; } }
+.layout-container--sidebar-second.layout-container--sidebar-first .region-sidebar-first {
+  background-color: #d33682; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-second.layout-container--sidebar-first .region-sidebar-first {
+      width: 15.25424%;
+      float: left;
+      margin-left: 0;
+      margin-right: -100%; } }
+.layout-container--sidebar-second.layout-container--sidebar-first .region-sidebar-second {
+  background-color: #cb4b16; }
+  @media (min-width: 1200px) {
+    .layout-container--sidebar-second.layout-container--sidebar-first .region-sidebar-second {
+      width: 15.25424%;
+      float: left;
+      margin-left: 84.74576%;
+      margin-right: -100%; } }
+
+.region-footer {
+  background-color: #268bd2; }
+  @media (min-width: 1200px) {
+    .region-footer {
+      clear: both;
+      width: 100%;
+      float: right;
+      margin-right: 0; } }
 
 /*# sourceMappingURL=style.css.map */
