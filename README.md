@@ -93,6 +93,7 @@ It's technically possible to use [Foundation](http://foundation.zurb.com/) frame
 The purpose of the compiler is to turn your scss into css. The way they are ranked by difficulty is by:
 * Easy: GUI-only
 * Advanced: Requires some command line installations
+* Command Line
 In addition some compilers need different installation and configuration depending on the base OS and that is noted when relevant. 
 
 While this theme aims to be free of requirements to use a particular compiler, some language-specific files are included in order to make it easier to configure some compilers:
@@ -124,6 +125,10 @@ To use in Koala simply drag the sass folder into the Koala application and click
 ### Style
 Sample styles are done with Markdown formatted commenting for use in Markdown-based [Styleguide](https://github.com/davidhund/styleguide-generators) generators.
 
+#### Command Line Compilers
+These are recommended if you are an advanced user comfortable on the command line
+* [Libsass](http://sass-lang.com/libsass): available in various flavors, Node is probably the most popular
+* Compass
 
 ### Other Plugins
 To use popular plugins that are not-SASS based, utilize a compiler that supports them.
