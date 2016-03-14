@@ -48,7 +48,8 @@ which references a file in the same directory as _base.scss with the name _varia
 The base SASS is Drupal version-agnostic, meaning you can use it for both Drupal 7 and Drupal 8 as long as you include the correct base variables file in your base partial. These files are:
 * /sass/partials/global/_drupal_7.scss
 * /sass/partials/global/_drupal_8.scss
-They are utilized by the sample files for layout, style, and design. 
+
+They are utilized by the sample files for layout, style, and design. Use _variables.scss to include your own variables file for non-style guide related variables like breakpoints. 
 
 #### Styleguide
 Think of the styleguide as the "skin" of your site, a set of standards to apply to the site. The samples include:
