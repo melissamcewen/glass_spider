@@ -131,6 +131,13 @@ These are recommended if you are an advanced user comfortable on the command lin
 * [Sass](http://sass-lang.com/install)
 * [Compass](http://compass-style.org/): is much more than a compiler, contains a lot of tools as well
 
+Other popular tools for a SASS-based front end workflow
+* [Bundler](http://bundler.io/)- recommended if you go a ruby-based route
+* [Bower](http://bower.io/)- package manager for web projects
+* [Grunt](http://gruntjs.com/)- task runner
+* [Gulp](http://gulpjs.com/)- task runner/automater
+
+
 ### Other Plugins
 To use popular plugins that are not-SASS based, utilize a compiler that supports them.
 
