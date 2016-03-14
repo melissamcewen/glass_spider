@@ -1,4 +1,4 @@
-# Glass Spider
+# Glass Spider ALPHA
 A lightweight and flexible Drupal 8 base theme designed for GUI-based SASS compiling. 
 
 ## Mission
@@ -134,6 +134,7 @@ Other popular tools for a SASS-based front end workflow
 * [Grunt](http://gruntjs.com/)- task runner
 * [Gulp](http://gulpjs.com/)- task runner/automater
 
+The final version of this theme will contain base files/documentation for the Libsass(Node), Bower, and Gulp-based workflow.
 
 ### Style
 Sample styles are done with Markdown formatted commenting for use in Markdown-based [Styleguide](https://github.com/davidhund/styleguide-generators) generators.
