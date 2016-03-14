@@ -122,9 +122,6 @@ _Difficulty: Easy_
 
 To use in Koala simply drag the sass folder into the Koala application and click compile.
 
-### Style
-Sample styles are done with Markdown formatted commenting for use in Markdown-based [Styleguide](https://github.com/davidhund/styleguide-generators) generators.
-
 #### Command Line Compilers
 These are recommended if you are an advanced user comfortable on the command line
 * [Libsass](http://sass-lang.com/libsass): available in various flavors, Node is probably the most popular
@@ -136,6 +133,10 @@ Other popular tools for a SASS-based front end workflow
 * [Bower](http://bower.io/)- package manager for web projects
 * [Grunt](http://gruntjs.com/)- task runner
 * [Gulp](http://gulpjs.com/)- task runner/automater
+
+
+### Style
+Sample styles are done with Markdown formatted commenting for use in Markdown-based [Styleguide](https://github.com/davidhund/styleguide-generators) generators.
 
 
 ### Other Plugins
