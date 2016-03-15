@@ -1,5 +1,5 @@
 # Glass Spider ALPHA
-A lightweight and flexible Drupal 8 base theme designed for GUI-based SASS compiling. 
+A lightweight and flexible Drupal 8 base theme designed for any type of SASS compiling. 
 
 ## Mission
 Glass Spider aims to be a solution that brings SASS-based theme development to a wide variety of skill levels. SASS setup is optimized for GUI compilers like Koala or Prepro. It's flexible – use Bootstrap or Breakpoint or anything you want (or don't) as long as it's SASS. Glass Spider also aims to utilize documentation-driven development. Too many tools, especially Drupal themes, lack great documentation, but Glass Spider will be built around a core of documentation at every step.
