@@ -1,3 +1,6 @@
+![In Progess](https://img.shields.io/badge/In%20Progress--red.svg)
+
+
 # Glass Spider ALPHA
 A lightweight and flexible Drupal 8 base theme designed for any type of SASS compiling. 
 
